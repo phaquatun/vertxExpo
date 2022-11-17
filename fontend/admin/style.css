@@ -1,0 +1,28 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-transform: capitalize;
+	list-style: none;
+	text-decoration: none;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin: 1rem 1.2rem;
+	padding: 1rem 1.5rem;
+}
+
+.header .logo{
+	display:flex;
+	justify-content: space-between;
+	width: 4rem;
+	margin-top: 1.2rem;
+	text-align: center;
+}
+
+.header .menu{
+	display: none;
+}
